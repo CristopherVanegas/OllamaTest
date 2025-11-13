@@ -1,0 +1,9 @@
+### Generate Demo
+POST http://localhost:11434/api/generate
+Content-Type: application/json
+
+{
+  "model": "qwen3:4b",
+  "prompt": "Hola, ¿cómo estás?",
+  "stream": false
+}
